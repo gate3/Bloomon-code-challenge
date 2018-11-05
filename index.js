@@ -4,7 +4,7 @@ const ProcessBouqets = require('./src/process-bouqets');
 
 async function main () {
     const lineReader = readline.createInterface({
-        input: process.stdin,//fs.createReadStream('sample/input.txt', 'utf8'),
+        input: process.stdin,
         output: process.stdout,
         terminal: false
     }); 

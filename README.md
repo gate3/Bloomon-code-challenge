@@ -14,7 +14,11 @@ Run:
 ## Comments 
 I was not able to write unit tests. My first impulse was to take the TDD approach as this is how i usually work. But i was afraid of the time constraint so i went on to write the solution first. 
 
-I also wasn't able to test the docker if the docker works. But I strongly believe it should. 
+- I would write unit tests to test the ProcessBouqets and Orders class by initializing it and passing the required arguements to its constructor then testing its output using its class functions. 
+
+- I would also test my processInput function by passing it a readline containing input which I can determine if the output is correct.
+
+I also wasn't able to test the docker if it works.
 
 ## Challenge description
 Bloomon has a production facility that produces bouquets. We simplified how the real one - located in Aalsmeer - works, for the purpose of this technical challenge:

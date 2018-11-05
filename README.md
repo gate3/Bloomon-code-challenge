@@ -1,6 +1,6 @@
 # Bloomon Code Challenge
 
-#Instructions
+# Instructions
 
 ## Get the code
 

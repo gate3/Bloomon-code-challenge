@@ -1,5 +1,4 @@
 const readline = require('readline');
-const fs = require('fs');
 const processedInput = require('./src/Helpers/process-input.helper');
 const ProcessBouqets = require('./src/process-bouqets');
 

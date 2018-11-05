@@ -1,4 +1,21 @@
 # Bloomon Code Challenge
+
+#Instructions
+
+## Get the code
+
+Clone the repository using "git clone git@github.com:gate3/Bloomon-code-challenge.git"
+
+## Build the docker image
+Run:
+    docker build -t bloomon .
+    docker run -it bloomon
+
+## Comments 
+I was not able to write unit tests. My first impulse was to take the TDD approach as this is how i usually work. But i was afraid of the time constraint so i went on to write the solution first. 
+
+I also wasn't able to test the docker if the docker works. But I strongly believe it should. 
+
 ## Challenge description
 Bloomon has a production facility that produces bouquets. We simplified how the real one - located in Aalsmeer - works, for the purpose of this technical challenge:
 

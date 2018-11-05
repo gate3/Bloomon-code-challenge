@@ -11,6 +11,8 @@ Run:
     docker build -t bloomon .
     docker run -it bloomon
 
+To ru nthe app. You need to pass the location of the file e.g. node index.js < ./sample/input.txt
+
 ## Comments 
 I was not able to write unit tests. My first impulse was to take the TDD approach as this is how i usually work. But i was afraid of the time constraint so i went on to write the solution first. 
 
